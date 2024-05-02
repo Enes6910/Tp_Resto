@@ -8,16 +8,6 @@ package enesclasses.resto;
  *
  * @author e.saglam
  */
-public class Carte implements java.io.Serializable {
-    private static final long serialVersionUID = 1L;
-    private String nom;
+public class Stock {
     
-    public Carte(String n) {
-        this.nom = n;
-    }
-    
-    public String getNom() {
-        return this.nom;
-    }
-   
 }

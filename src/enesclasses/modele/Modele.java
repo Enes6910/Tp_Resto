@@ -76,6 +76,5 @@ public class Modele implements java.io.Serializable  {
             System.out.println("Warning : L'eleve "+num+" existe deja");
             return;
         }
-        this.eleves.add(new Eleve(n, p));
-    }
+        }
 }

@@ -8,6 +8,17 @@ package enesclasses.resto;
  *
  * @author e.saglam
  */
-public class Cuisinier {
+public class Caisse {
+    private static final long serialVersionUID = 1L;
+    private float argent;
     
+    public Caisse(float a) {
+        this.argent = a;
+    }
+    
+    public float getArgent() {
+        return this.argent;
+    }
+   
 }
+

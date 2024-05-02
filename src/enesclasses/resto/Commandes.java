@@ -8,6 +8,16 @@ package enesclasses.resto;
  *
  * @author e.saglam
  */
-public class Caissier {
+public class Commandes {
+    private static final long serialVersionUID = 1L;
+    private String nom;
     
+    public Commandes (String n) {
+        this.nom = n;
+    }
+    
+    public String getNom() {
+        return this.nom;
+    }
+   
 }
